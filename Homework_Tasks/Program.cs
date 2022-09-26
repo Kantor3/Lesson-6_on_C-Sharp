@@ -110,7 +110,7 @@ int fibo_b = Convert.ToInt32(Console.ReadLine());
 
 while (true)
 {
-    Console.Write("\nСколько вывести чисел ряда Фибоначчи, или '0' - для завершения: ");
+    Console.Write("\nСколько показать чисел ряда Фибоначчи, или '0' - для завершения: ");
     int fibo_N = Convert.ToInt32(Console.ReadLine());
 
     if (CheckExit(fibo_N)) break;
